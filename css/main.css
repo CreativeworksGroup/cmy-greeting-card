@@ -165,9 +165,9 @@ select {
 }
 
 @font-face {
-    font-family: 'itakiregular';
-    src: url('../fonts/itaki-webfont.woff2') format('woff2'),
-         url('../fonts/itaki-webfont.woff') format('woff');
+    font-family: 'sentytangregular';
+    src: url('../fonts/sentytang-webfont.woff2') format('woff2'),
+         url('../fonts/sentytang-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -260,7 +260,7 @@ section {
     text-align: center;
     letter-spacing: .0625em;
     font-size: 2em;
-    font-family: itakiregular;
+    font-family: sentytangregular;
     position: absolute;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -478,7 +478,7 @@ section {
     display: block;
     margin-top: 30px;
     line-height: 20px;
-    font-family: itakiregular;
+    font-family: sentytangregular;
     font-size: 1.5em;
     color: #d13437
 }
@@ -514,7 +514,7 @@ section {
 .make-new,
 .send-msg,
 .send-screen {
-    font-family: itakiregular;
+    font-family: sentytangregular;
     font-size: 2em;
     text-align: center;
     color: #d13437;
@@ -552,7 +552,7 @@ section {
     background: 0 0;
     color: #d13437;
     opacity: .7;
-    font-family: itakiregular;
+    font-family: sentytangregular;
     font-size: 3em
 }
 
