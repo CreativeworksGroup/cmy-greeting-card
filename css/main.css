@@ -164,6 +164,15 @@ select {
     box-sizing: border-box
 }
 
+
+@font-face {
+    font-family: suzee_fyregular;
+    src: url(../fonts/suzeefy-regular_s-webfont.eot);
+    src: url(../fonts/suzeefy-regular_s-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/suzeefy-regular_s-webfont.woff2) format('woff2'), url(../fonts/suzeefy-regular_s-webfont.woff) format('woff'), url(../fonts/suzeefy-regular_s-webfont.ttf) format('truetype'), url(../fonts/suzeefy-regular_s-webfont.svg#suzee_fyregular) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
 @font-face {
     font-family: 'sentytangregular';
     src: url('../fonts/sentytang-webfont.woff2') format('woff2'),
@@ -260,7 +269,7 @@ section {
     text-align: center;
     letter-spacing: .0625em;
     font-size: 2em;
-    font-family: sentytangregular;
+    font-family: suzee_fyregular;
     position: absolute;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -478,7 +487,7 @@ section {
     display: block;
     margin-top: 30px;
     line-height: 20px;
-    font-family: sentytangregular;
+    font-family: suzee_fyregular;
     font-size: 1.5em;
     color: #d13437
 }
@@ -514,7 +523,7 @@ section {
 .make-new,
 .send-msg,
 .send-screen {
-    font-family: sentytangregular;
+    font-family: suzee_fyregular;
     font-size: 2em;
     text-align: center;
     color: #d13437;
@@ -552,7 +561,7 @@ section {
     background: 0 0;
     color: #d13437;
     opacity: .7;
-    font-family: sentytangregular;
+    font-family: suzee_fyregular;
     font-size: 3em
 }
 
